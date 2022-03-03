@@ -1,9 +1,18 @@
-Template for the Read the Docs tutorial
-=======================================
+Assignment notes
+================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Документацию можно посмотреть на https://acme-docs.readthedocs.io/
 
-Read the tutorial here:
+Я предположил, что аудитория для этой документаци - люди, которые были на вебсайте продукта и примерно знают, что такое ACME. Раздел "ACME on-premises" в основном для админитраторов и разработчиков, которые будут заниматься интеграцией. Раздел "ACME cloud service" для тех, кто будет что-то делать с данными, пользоваться дэшбордами и т.д.
 
-https://docs.readthedocs.io/en/stable/tutorial/
+Documentation for ACME personnel (Engineering (Dev, QA, DevOps), Product, Sales, Marketing) я не делал. Сходу не могу придумать, что туда можно написать. Чтобы это сделать, мне нужно понять, как работают эти команды и какие проблемы у них возникают. В списке ACME personnel нет поддержки, но если есть какой-нибудь саппорт-центр, то запросы в него можно было бы использовать для составления какого-нибудь "Most Frequent Problems" и/или обновить доку, чтобы избегать проблем.
+
+>Describe which questions would you ask and from which people, to make the assignment (an actual task, frankly) more concrete and make better documentation
+
+Тут, наверное, напишу совсем очевидные вещи. Все вопросы, связанные с установкой и настройкой ACME-oPS, я бы задавал команде Engineering. Вопросы по использованию ACME cloud service - Product команде. Вопросы могут быть совершенно разные. Зависит от того, что мне уже известно. Написать что-то конкретное я не могу, для этого нужно много выдумывать.
+
+>Describe which tools would you need to implement all of this, and why
+
+Для клиентской документации я использовал readthedocs. Тут удобная навигация, нормальный поиск. Все, что нужно для внешней документации. Для внутренней я бы предложил Confluence из-за возможностей коллаборации и простоты использования. Важно, чтобы сотрудникам не приходилось долго разбираться с тем, как писать и редактировать статьи, иначе никто не будет ничего писать.
+
+На выполнение задания я потратил 3 часа.
